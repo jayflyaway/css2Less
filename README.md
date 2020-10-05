@@ -2,6 +2,7 @@
 Front-End based on https://github.com/sshmyg/css2less
 Converts css strings to less
 
+Test it here: https://jayflyaway.github.io/css2Less/
 
 ### additional functions:
 
