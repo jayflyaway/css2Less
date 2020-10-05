@@ -20,6 +20,10 @@ body {
 }
 .content {
     padding: 10px 30px;
+    background-image: url('..//pics/pandas.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 22%;
+    background-position-y: bottom;
 }
 .center {
     display: flex;
