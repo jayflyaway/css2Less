@@ -1,3 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .hidden {
-    
+    display: none;
+}
+.title{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 25pt;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.description {
+    text-align: center;
+    color: #5f5a5a;
+    font-size: 10pt;
+}
+.font-xl {
+    font-size: 35pt;
+}
+.content {
+    padding: 10px 30px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+.code {
+    background-color: #001628;
+    color: #f7efb4;
+    padding: 10px;
+    border-left: 23px #545454 solid;
+    font-family: monospace;
+}
+.button {
+    background-color: #dcdada;
+    border: none;
+    padding: 5px 22px;
+    margin: 10px 0;
+}
+.button:focus {
+    outline: none;
 }

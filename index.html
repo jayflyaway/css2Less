@@ -2,12 +2,29 @@
     <head>
         <!-- Custom styles for this template -->
         <link href="styles/styles.css" rel="stylesheet">
+        <!--google font-->
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        
-        <textarea id="cssInput" rows="5" cols="80">a {color:green; text-decoration:none; } a:hover {color:lime; } a:active {text-decoration:underline; }</textarea>
-        <p><button  id="convert" type="button">convert to LESS</button></p>
-        <textarea id="lessOutput" rows="50" cols="80" class="hidden"></textarea>
+        <div class="center title">CSS<span class="font-xl">2</span>LESS</div>
+        <div class="description center">Transform CSS code into Less. <br>
+            Copy your CSS code in the box below and click the convert button.
+        </div>
+        <div class="content">
+            <div class="center">
+                <textarea id="cssInput" class="code" rows="10" cols="80" name="code">a {color:green; text-decoration:none; } a:hover {color:lime; } a:active {text-decoration:underline; }
+                </textarea>
+            </div>
+            <div class="center">
+                <button class="button" id="convert" type="button">convert to LESS</button>
+
+            </div>
+            <div class="center">
+                <textarea id="lessOutput" class="code" rows="30" cols="80"></textarea>
+            </div>
+        </div>
 
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>

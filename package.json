@@ -4,9 +4,7 @@
   "description": "",
   "main": "_app.js",
   "dependencies": {
-    "css2less": "^0.1.4",
-    "express": "^4.17.1",
-    "requirejs": "^2.3.6"
+    "css2less": "^0.1.4"
   },
   "devDependencies": {},
   "scripts": {
