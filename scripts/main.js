@@ -15,4 +15,7 @@ $( document ).ready(function() {
         $('#lessOutput').val(lessInst.less);
 
     });
+    $('#panda-img').mouseenter(function(){
+        
+    })
 });

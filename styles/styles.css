@@ -14,16 +14,15 @@ body {
     text-align: center;
     color: #5f5a5a;
     font-size: 10pt;
+    padding-bottom: 10px;
 }
 .font-xl {
     font-size: 35pt;
 }
 .content {
     padding: 10px 30px;
-    background-image: url('..//pics/pandas.jpg');
-    background-repeat: no-repeat;
-    background-position-x: 22%;
-    background-position-y: bottom;
+    display: flex;
+    justify-content: stretch;
 }
 .center {
     display: flex;
@@ -45,3 +44,22 @@ body {
 .button:focus {
     outline: none;
 }
+
+#deco {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    width: 30%;
+}
+#deco img {
+    padding-right:15px;
+}
+
+@media screen and (max-width: 1335px) {
+    #deco {
+        display: none;
+    }
+    .content {
+        display: unset;
+    }
+  }
