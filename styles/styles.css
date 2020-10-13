@@ -24,6 +24,9 @@ body {
     display: flex;
     justify-content: stretch;
 }
+#converter_options {
+    max-width: fit-content;
+}
 .center {
     display: flex;
     justify-content: center;

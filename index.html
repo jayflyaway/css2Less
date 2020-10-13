@@ -26,6 +26,17 @@
                     <textarea id="cssInput" class="code" rows="10" cols="80" name="code">a {color:green; text-decoration:none; } a:hover {color:lime; } a:active {text-decoration:underline; }
                     </textarea>
                 </div>
+
+                <div id="converter_options" class="center">
+                     <div>
+                         <input type="checkbox" id="option_updateColors" checked="checked"> updateColors</input>
+                         <input type="checkbox" id="option_vendorMixins"> vendorMixins</input>
+                         <input type="number" min="1" max="10" value="1" id="option_indentSize"> indentSize</input> <br>
+                         <input type="text" id="option_vendorPrefixesList" value="'-moz', '-o', '-ms', '-webkit'"> vendorPrefixesList</input>
+                         <input type="checkbox" id="option_blockFromNewLine"> blockFromNewLine</input>
+                     </div>   
+                </div>
+
                 <div class="center">
                     <button class="button" id="convert" type="button">convert to Less</button>
     
