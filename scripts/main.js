@@ -5,7 +5,7 @@ $( document ).ready(function() {
         let option_updateColors = $('#option_updateColors').is(':checked');
         let option_vendorMixins = $('#option_vendorMixins').is(':checked');
         let option_indentSize = parseInt($('#option_indentSize').val());
-        let option_vendorPrefixesList = "[ " + $('#option_vendorPrefixesList').val() + "]";
+        let option_vendorPrefixesList = $('#option_vendorPrefixesList').val().split(",");
         let option_blockFromNewLine = $('#option_blockFromNewLine').is(':checked');
         let options = {
             "updateColors": option_updateColors,
